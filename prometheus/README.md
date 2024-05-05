@@ -77,7 +77,7 @@ Service: Prometheus
 
 1. Save the Docker Compose configuration in a docker-compose.yml file and the Prometheus configuration in a prometheus.yml file.
 2. Run docker-compose up -d to start Prometheus in detached mode.
-3. Access Prometheus's web interface via http://<host-ip>:9090.
+3. Access Prometheus's web interface via http://192.168.0.116:9090. #Replace with your server's IP
 
 ## Configuring and Using Prometheus
 
