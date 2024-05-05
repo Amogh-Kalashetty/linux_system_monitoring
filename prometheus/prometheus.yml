@@ -18,7 +18,7 @@ scrape_configs:
     scheme: http
     static_configs:
       - targets:
-        - 192.168.0.116:9090
+        - 192.168.0.116:9090 #Change this to your server's IP
   - job_name: amoghs # Change to whatever you like
     static_configs:
       - targets: ['192.168.0.116:9100'] 
